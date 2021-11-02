@@ -1,0 +1,6 @@
+.env
+.env.test
+bin/
+vendor/
+var/
+config/
