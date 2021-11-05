@@ -98,7 +98,7 @@
         "version": "1.10.2"
     },
     "nikic/php-parser": {
-        "version": "v4.13.0"
+        "version": "v4.13.1"
     },
     "phar-io/manifest": {
         "version": "2.0.3"
