@@ -12,8 +12,8 @@ The users which can use this app are divided in three categories:
 
 ## Database organisation
 
-Client(**IdUser**, Username, Email, Password, UserType, **#IdCorp**) `Password` is the hash (SHA-256) of the real password.  
-Renter(**IdUser**, Username, Email, Password, UserType, **#IdCorp**) `Password` is the hash (SHA-256) of the real password.  
+Client(**IdClient**, Username, Email, Password, **#IdCorp**) `Password` is the hash (SHA-256) of the real password.  
+Renter(**IdRenter**, Username, Email, Password, **#IdCorp**) `Password` is the hash (SHA-256) of the real password.  
 Corporation(**IdCorp**, CorpName, CorpAddress)  
 Vehicle(**IdVehicle**, Type, Amount, Details, Photo, LocationState) `Details` corresponds to the characteristics of the vehicle. It is a JSON string.  
 Bill(**IdBill**, **#IdClient**, **#IdRenter**, **#IdVehicle**, BeginDate, EndDate, Price, PaymentStatus)
